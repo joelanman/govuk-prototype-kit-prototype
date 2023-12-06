@@ -1,6 +1,6 @@
 # GOV.UK Prototype Kit starter prototype (unofficial)
 
-A blank starter [GOV.UK Prototype Kit](https://prototype-kit.service.gov.uk) prototype, useful for online code editors such as:
+A blank starter [GOV.UK Prototype Kit](https://prototype-kit.service.gov.uk) prototype, for online code editors such as:
 
  - [GitHub Codespaces](https://github.com/codespaces)
  - [StackBlitz](https://stackblitz.com)
