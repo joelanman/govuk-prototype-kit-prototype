@@ -1,5 +1,10 @@
 # GOV.UK Prototype Kit starter prototype (unofficial)
 
-You can fork or clone this repo in order to make a new GOV.UK Prototype Kit prototype, for example using [GitHub Codespaces](https://github.com/codespaces).
+A blank starter [GOV.UK Prototype Kit](https://prototype-kit.service.gov.uk) prototype, useful for online code editors such as:
+
+ - [GitHub Codespaces](https://github.com/codespaces)
+ - [StackBlitz](https://stackblitz.com)
+
+This is especially useful if you cannot install the kit on your computer.
 
 This is a personal project and not officially supported by GDS.
