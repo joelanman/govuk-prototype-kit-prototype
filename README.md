@@ -7,4 +7,6 @@ A blank starter [GOV.UK Prototype Kit](https://prototype-kit.service.gov.uk) pro
 
 This is especially useful if you cannot install the kit on your computer.
 
+Read the [Get started guide](https://joelanman.com/posts/govuk-prototype-kit-github-codespaces/).
+
 This is a personal project and not officially supported by GDS.
