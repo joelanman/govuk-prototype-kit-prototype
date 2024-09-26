@@ -1,8 +1,8 @@
 {
   "scripts": {
-    "dev": "govuk-prototype-kit dev",
-    "serve": "govuk-prototype-kit serve",
-    "start": "govuk-prototype-kit start"
+    "dev": "node node_modules/govuk-prototype-kit/bin/cli dev",
+    "serve": "node node_modules/govuk-prototype-kit/bin/cli serve'",
+    "start": "node node_modules/govuk-prototype-kit/bin/cli start"
   },
   "dependencies": {
     "@govuk-prototype-kit/common-templates": "^2.0.1",
