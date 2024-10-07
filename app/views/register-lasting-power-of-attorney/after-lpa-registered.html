@@ -1,7 +1,7 @@
 {% extends "layouts/main.html" %}
 
 {% block pageTitle %}
-Register a lasting power of attorney: Make your LPA
+Register a lasting power of attorney: After the lpa is registered
 {% endblock %}
 
 {% block header %}
@@ -52,25 +52,25 @@ Register a lasting power of attorney: Make your LPA
             <li class="govuk-prototype-kit-common-templates-contents-list__list-item govuk-prototype-kit-common-templates-contents-list__list-item--dashed ">
               <a href="/register-lasting-power-of-attorney/prepare-lpa">Preparing to make your lasting power of attorney</a>
             </li>
-            <li aria-current="true" class="govuk-prototype-kit-common-templates-contents-list__list-item govuk-prototype-kit-common-templates-contents-list__list-item--dashed">
-              
+            <li class="govuk-prototype-kit-common-templates-contents-list__list-item govuk-prototype-kit-common-templates-contents-list__list-item--dashed">
+              <a href="/register-lasting-power-of-attorney/make-lpa">
                 Make your lasting power of attorney
-              
-            </li>
-			<li class="govuk-prototype-kit-common-templates-contents-list__list-item govuk-prototype-kit-common-templates-contents-list__list-item--dashed">
-              <a href="/register-lasting-power-of-attorney/certificate-provider">
-                Act as a certificate provider
               </a>
             </li>
-			            <li class="govuk-prototype-kit-common-templates-contents-list__list-item govuk-prototype-kit-common-templates-contents-list__list-item--dashed">
-                <a href="/register-lasting-power-of-attorney/attorney">
+			<li class="govuk-prototype-kit-common-templates-contents-list__list-item govuk-prototype-kit-common-templates-contents-list__list-item--dashed">
+        <a href="/register-lasting-power-of-attorney/certificate-provider">
+                Act as a certificate provider
+        </a>
+            </li>
+			            <li aria-current="true" class="govuk-prototype-kit-common-templates-contents-list__list-item govuk-prototype-kit-common-templates-contents-list__list-item--dashed">
+                    <a href="/register-lasting-power-of-attorney/attorney">
                 Agree to be an attorney
               </a>
             </li>
 			            <li class="govuk-prototype-kit-common-templates-contents-list__list-item govuk-prototype-kit-common-templates-contents-list__list-item--dashed">
-              <a href="/register-lasting-power-of-attorney/after-lpa-registered">
+              
                 After the lasting power of attorney is registered
-              </a>
+              
             </li>
 			            <li class="govuk-prototype-kit-common-templates-contents-list__list-item govuk-prototype-kit-common-templates-contents-list__list-item--dashed">
               <a href="#">
@@ -89,7 +89,7 @@ Register a lasting power of attorney: Make your LPA
     <div class="govuk-grid-column-two-thirds govuk-prototype-kit-common-templates-mainstream-guide-body">
       
       <h2 class="govuk-heading-l">
-        Make your lasting power of attorney
+        After the lasting power of attorney is registered
       </h2>
       
       <p>Content goes here.</p>
@@ -98,12 +98,12 @@ Register a lasting power of attorney: Make your LPA
 
       {{ govukPagination({
         previous: {
-          labelText: "Preparing to make a lasting power of attorney",
-          href: "/register-lasting-power-of-attorney/prepare-lpa"
+          labelText: "Agree to be an attorney",
+          href: "/register-lasting-power-of-attorney/attorney"
         },
         next: {
-          labelText: "Act as a certificate provider",
-          href: "/register-lasting-power-of-attorney/certificate-provider"
+          labelText: "Contact the Office of the Public Guardian",
+          href: "#"
         }
       }) }}
 
