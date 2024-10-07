@@ -1,7 +1,7 @@
 {% extends "layouts/main.html" %}
 
 {% block pageTitle %}
-Register a lasting power of attorney: Act as a certificate provider
+Register a lasting power of attorney: Contact the Office of the Public Guardian
 {% endblock %}
 
 {% block header %}
@@ -57,25 +57,25 @@ Register a lasting power of attorney: Act as a certificate provider
                 Make your lasting power of attorney
               </a>
             </li>
-			<li aria-current="true" class="govuk-prototype-kit-common-templates-contents-list__list-item govuk-prototype-kit-common-templates-contents-list__list-item--dashed">
-              
+			<li class="govuk-prototype-kit-common-templates-contents-list__list-item govuk-prototype-kit-common-templates-contents-list__list-item--dashed">
+        <a href="/register-lasting-power-of-attorney/certificate-provider">
                 Act as a certificate provider
-              
+        </a>
             </li>
 			            <li class="govuk-prototype-kit-common-templates-contents-list__list-item govuk-prototype-kit-common-templates-contents-list__list-item--dashed">
-              <a href="/register-lasting-power-of-attorney/attorney">
+                    <a href="/register-lasting-power-of-attorney/attorney">
                 Agree to be an attorney
               </a>
             </li>
 			            <li class="govuk-prototype-kit-common-templates-contents-list__list-item govuk-prototype-kit-common-templates-contents-list__list-item--dashed">
-              <a href="/register-lasting-power-of-attorney/after-lpa-registered">
+                    <a href="/register-lasting-power-of-attorney/after-lpa-registered">
                 After the lasting power of attorney is registered
               </a>
             </li>
-			            <li class="govuk-prototype-kit-common-templates-contents-list__list-item govuk-prototype-kit-common-templates-contents-list__list-item--dashed">
-                    <a href="/register-lasting-power-of-attorney/contact-office-of-public-guardian">
+			            <li aria-current="true" class="govuk-prototype-kit-common-templates-contents-list__list-item govuk-prototype-kit-common-templates-contents-list__list-item--dashed">
+              
                 Contact the Office of the Public Guardian
-              </a>
+              
             </li>
           </ol>
         </nav>
@@ -89,7 +89,7 @@ Register a lasting power of attorney: Act as a certificate provider
     <div class="govuk-grid-column-two-thirds govuk-prototype-kit-common-templates-mainstream-guide-body">
       
       <h2 class="govuk-heading-l">
-        Act as a certificate provider
+        Contact the Office of the Public Guardian (OPG)
       </h2>
       
       <p>Content goes here.</p>
@@ -98,12 +98,8 @@ Register a lasting power of attorney: Act as a certificate provider
 
       {{ govukPagination({
         previous: {
-          labelText: "Make your lasting power of attorney",
-          href: "/register-lasting-power-of-attorney/make-lpa"
-        },
-        next: {
-          labelText: "Agree to be an attorney",
-          href: "#"
+          labelText: "After the LPA is registered",
+          href: "/register-lasting-power-of-attorney/after-lpa-registered"
         }
       }) }}
 
