@@ -17,6 +17,7 @@
     "prConcurrentLimit": 0,
     "branchConcurrentLimit": 0,
     "separateMultipleMajor": true,
+    "minimumReleaseAge": "7 days",
     "lockFileMaintenance": {
         "enabled": false
     },
@@ -35,7 +36,6 @@
             ],
             "prCreation": "immediate",
             "prPriority": 4,
-            "minimumReleaseAge": "3 days",
             "matchPackageNames": [
                 "*"
             ]
@@ -48,7 +48,6 @@
             "Renovate"
         ],
         "prCreation": "immediate",
-        "minimumReleaseAge": "3 days"
     },
     "vulnerabilityAlerts": {
         "enabled": false
